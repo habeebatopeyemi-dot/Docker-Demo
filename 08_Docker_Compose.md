@@ -272,7 +272,7 @@ sudo apt  install docker-compose
 
 Navigate to `multi-tier-app/` and run:
 ```sh
-docker-compose up --build -d
+docker compose up --build -d
 ```
 - `--build` forces a rebuild of images.
 - `-d` runs services in the background.
